@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align:center;
+    color:goldenrod;
+}
+
+#name-div{
+    display:flex;
+}
+
+#name{
+    font-size:large;
+    padding:0px 10px;
+    font-weight:bold;
+}
+
+#input-name{
+    width: 100%;
+    box-sizing:border-box;
+    padding:0 4px;
+}
+
+#date-div{
+    display:flex;
+    margin-top: 20px;
+    padding:0px 10px;
+    font-size:large;
+    font-weight: bold;
+}
+
+#date{
+    padding-right:10px;
+}
+
+#input-date{
+    padding:0 4px;
+    width: 30%;
+}
+
+#amount-el{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#input-amt{
+    width: 30%;
+}
+
+#button-el{
+    margin-top: 30px;
+    text-align:center;
+}
+
+#add-btn{
+    background: rgb(11, 94, 11);
+    border:1px solid;
+    color:white;
+    font-weight:bold;
+    padding: 20px;
+}
+
+table{
+    margin-top: 20px;
+    width:100%;
+    box-sizing:border-box;
+}
+
+th{
+    text-align:left;
+}
+
+table, th, td {
+    border:1px solid;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color:#ffff;
+}
+
+tr:nth-child(odd){
+    background-color:#ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
